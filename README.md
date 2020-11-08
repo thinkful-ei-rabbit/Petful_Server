@@ -18,8 +18,8 @@ Puts cats and dogs into a queue, while waiting for people to line up and adopt t
 - DELETE: removes person at the front of the line (index `[0]`)
 > returns removed person
 
-### /reset/{pets || people}
-- Get: resets local data store to default for either pets or people
+### /reset/pets & /reset/people
+- GET: resets local data store to default for either pets or people
 
 ## Tech Stack:
 
